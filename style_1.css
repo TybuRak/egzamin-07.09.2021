@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.start-view-wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background: #4682B4;
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.left-menu{
+    background: #40E0D0;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.right-menu{
+    width: 60%;
+    height: 500px;
+    float: right;
+    background: #40E0D0;
+}
+
+.right-menu img{
+    padding: 5px;
+    margin: 10px;
+    width: 550px;
+    border: 1px solid #000080
+}
+
+footer{
+    clear: both;
+    background: #4682B4;
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}

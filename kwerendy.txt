@@ -1,0 +1,7 @@
+SELECT `nazwa`, `wystepowanie` FROM `ryby` WHERE `styl_zycia`=1;
+
+SELECT `Ryby_id`, `wymiar_ochronny` FROM `okres_ochronny` WHERE `wymiar_ochronny`<50;
+
+SELECT `nazwa`, `lowisko`, `wojewodztwo` FROM `ryby` JOIN `lowisko` ON `lowisko`.`Ryby_id`=`ryby`.`id` WHERE `rodzaj`=2;
+
+ALTER TABLE `ryby` ADD `dobowy_limit` INT NOT NULL AFTER `styl_zycia`;
